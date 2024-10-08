@@ -1,5 +1,5 @@
 class QueueNode {
-  value: number | undefined;
+  value: number;
   next: QueueNode | undefined;
 
   constructor(value: number) {
